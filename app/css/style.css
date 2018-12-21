@@ -47,7 +47,7 @@
   color: #fff; }
 
 .tooltipster-default .tooltipster-content {
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
   padding: 8px 10px;
@@ -202,7 +202,7 @@
   -o-transform: rotateZ(4deg);
   -ms-transform: rotateZ(4deg);
   transform: rotateZ(4deg);
-  -webkit-transition-property: -webkit-transform,opacity;
+  -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   -ms-transition-property: -ms-transform;
@@ -277,8 +277,8 @@
   transform: scale(1.1, 1.1); }
 
 /* *
-  * TOOLTIPTSTER OVERRIDE CSS
-  */
+ * TOOLTIPTSTER OVERRIDE CSS
+ */
 .tooltipster-light {
   border-radius: 5px;
   background-color: #F0BE00;
@@ -290,3 +290,13 @@
   font-size: 13px;
   line-height: 16px;
   padding: 8px 10px; }
+
+.input-group {
+  width: 100%; }
+
+.wizard-container {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.form-group {
+  margin: 10px 0 0 0; }

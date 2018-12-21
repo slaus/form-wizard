@@ -1,12 +1,8 @@
-// jQuery(function($) {
-//     $(".auto-save").savy("load");
+jQuery(function($) {
+    $(".tab-content input").on("change", function() {
+        if($(this).val() == "") {
+            $(".wizard-footer").find("input[name=next]").prop("disabled", true);
+        }
+    });
 
-//     if ($("input").val() == "") { $("#step-1 .btn.nextBtn").attr("disabled", true); }
-
-//     //$("#step-1 select").val();
-//     $("#step-1 select").on("change", function() {
-//         var val = $(this).val();
-//         if (val !== "") { $("#step-1 .btn.nextBtn").attr("disabled", false); }
-//         console.log(val);
-//     });
-// });
+});
